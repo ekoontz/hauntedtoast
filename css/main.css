@@ -1,0 +1,27 @@
+div {
+    border:1px dashed blue;
+}
+
+h1,h2 {
+    border:1px dashed blue;
+}
+
+.banner {
+    float:left;
+    width:100%;
+}
+
+.banner h1 {
+    width:auto;
+    float:left;
+}
+
+.banner h2 {
+    width:auto;
+    float:left;
+}
+
+.banner img {
+    width:auto;
+    float:left;
+}

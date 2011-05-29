@@ -2,7 +2,7 @@ div {
     border:1px dashed blue;
 }
 
-h1,h2 {
+h1,h2,img {
     border:1px dashed blue;
 }
 
@@ -11,17 +11,63 @@ h1,h2 {
     width:100%;
 }
 
-.banner h1 {
-    width:auto;
+.banner * {
     float:left;
 }
 
+.banner h1 {
+    width:30%;
+    float:left;
+}
+
+.banner h1.left {
+    position:absolute;
+    left:1%;
+    text-align:left;
+}
+
+.banner h1.right {
+    position:absolute;
+    right:1%;
+    text-align:right;
+}
+
+
 .banner h2 {
     width:auto;
+    margin:0.5em;
     float:left;
 }
 
 .banner img {
-    width:auto;
+    position:absolute;
+    left:35%;
+    width:30%;
     float:left;
+}
+
+div.links {
+    float:30%;
+    width:30%;
+}
+
+.banner div.left {
+    position:absolute;
+    top:25%;
+    left:1%;
+    float:left;
+    text-align:left;
+}
+
+.banner div.right {
+    position:absolute;
+    top:25%;
+    right:1%;
+    float:right;
+    text-align:right;
+}
+
+.banner div.right h2 {
+    float:right;
+    text-align:right;
 }

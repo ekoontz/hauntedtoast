@@ -6,40 +6,40 @@ h1,h2,img {
     border:1px dashed blue;
 }
 
-.banner {
+#banner {
     float:left;
     width:100%;
 }
 
-.banner * {
+#banner * {
     float:left;
 }
 
-.banner h1 {
+#banner h1 {
     width:30%;
     float:left;
 }
 
-.banner h1.left {
+#banner h1.left {
     position:absolute;
     left:1%;
     text-align:left;
 }
 
-.banner h1.right {
+#banner h1.right {
     position:absolute;
     right:1%;
     text-align:right;
 }
 
 
-.banner h2 {
+#banner h2 {
     width:auto;
     margin:0.5em;
     float:left;
 }
 
-.banner img {
+#banner img {
     position:absolute;
     left:35%;
     width:30%;
@@ -51,7 +51,7 @@ div.links {
     width:30%;
 }
 
-.banner div.left {
+#banner div.left {
     position:absolute;
     top:25%;
     left:1%;
@@ -59,7 +59,7 @@ div.links {
     text-align:left;
 }
 
-.banner div.right {
+#banner div.right {
     position:absolute;
     top:25%;
     right:1%;
@@ -67,7 +67,38 @@ div.links {
     text-align:right;
 }
 
-.banner div.right h2 {
+#banner div.right h2 {
     float:right;
     text-align:right;
+}
+
+#submenu {
+    position:absolute;
+    left:0;
+    top:50%;
+    width:30%;
+}
+
+
+#blog {
+    position:absolute;
+    width:30%;
+    right:0;
+    top:50%;
+}
+
+
+#events {
+    position:absolute;
+    right:0;
+    top:70%;
+    width:30%;
+}
+
+#content {
+    width:40%;
+    top:50%;
+    left:30%;
+    position:absolute;
+    
 }
